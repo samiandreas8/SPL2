@@ -10,6 +10,14 @@ for i in range(1,a+1):
             print(i, end=" ,")
         else:
             print(i)
+for i in range(1,a+1):
+    if (n%0):
+        #nix
+    else:
+        if (i < n):
+            print(i, end=" ,")
+        else:
+            print(i)
     
         
     
