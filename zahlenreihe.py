@@ -5,16 +5,14 @@ for i in range(1,a+1):
     else:
         print(i)
 for i in range(1,a+1):
-    if (n%2 == 0):
-        if (i < n):
+    if (a%2 == 0):
+        if (i < a):
             print(i, end=" ,")
         else:
             print(i)
 for i in range(1,a+1):
-    if (n%2 == 0):
-        #nix
-    else:
-        if (i < n):
+    if  (a%2 != 0):
+        if (i < a):
             print(i, end=" ,")
         else:
             print(i)
