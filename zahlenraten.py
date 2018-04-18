@@ -6,7 +6,7 @@ i=1
 while(i<=m):
     x=int(input("Geben sie ihren Tipp ein\n"))
     if (x == zufallszahl):
-        print("Sie haben richtig geraten!!")
+        print ("Sie haben richtig geraten!!")
         i=m
     else:
         print ("Leider Falsch sie haben noch", m-i, "Versuche\n")
