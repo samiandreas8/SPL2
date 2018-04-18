@@ -1,0 +1,5 @@
+print("Hallo Servus")
+name=input("Wie lautet ihr Name?\n")
+print("Schhön dich zu treffen", name, "Die länge von dem Namen ist", len(name),"Zeichen lang.")
+alter=int(input("Wie alt bist du?\n"))
+print("Du wirst in einem Jahr", alter+1, "Jahre alt sein.")
