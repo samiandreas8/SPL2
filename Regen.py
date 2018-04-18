@@ -9,4 +9,3 @@ if (regen==True):
                 regen=False
         print("jetzt regnet es nicht mehr")
 print ("Geh nach draußen")
-
