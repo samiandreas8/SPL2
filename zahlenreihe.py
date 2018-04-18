@@ -20,3 +20,8 @@ for i in range(1,a+1):
             print(i, end=" < ")
         else:
             print(i)
+print("\n")
+for i in range(1,a+1):
+    if  (i % 2 != 0 and i % 3 != 0 and i % 5 != 0 and i>1):
+        print(i, end="; ")
+        
