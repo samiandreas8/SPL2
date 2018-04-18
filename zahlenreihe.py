@@ -5,13 +5,13 @@ for i in range(1,a+1):
     else:
         print(i)
 for i in range(1,a+1):
-    if (n%0):
+    if (n%2 == 0):
         if (i < n):
             print(i, end=" ,")
         else:
             print(i)
 for i in range(1,a+1):
-    if (n%0):
+    if (n%2 == 0):
         #nix
     else:
         if (i < n):
